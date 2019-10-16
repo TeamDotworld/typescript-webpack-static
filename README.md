@@ -1,2 +1,21 @@
-# typescript-webpack-static
-Starter template for developing static pages using typescript and webpack
+# Webpack TypeScript Starter
+Starter template for developing static site using webpack and typescript
+
+### Starting Devevelopent Server
+
+```
+npm run start:dev
+```
+
+### Production build
+
+```
+npm run build
+```
+
+### Features:
+  - eslint
+  - sass
+  - css
+  - typescript
+  
