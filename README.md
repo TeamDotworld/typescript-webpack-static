@@ -18,4 +18,5 @@ npm run build
   - sass
   - css
   - typescript
+  - hotreload
   
