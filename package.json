@@ -1,0 +1,38 @@
+{
+  "name": "webpack-static-template",
+  "version": "1.0.0",
+  "description": "Starter template for static page using webpack and typescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "set NODE_ENV=production && webpack --config config/webpack.config.prod.js",
+    "dev": "set NODE_ENV=development && webpack-dev-server --open --config config/webpack.config.dev.js",
+    "git": "npm run build && git add . && git commit -m \"auto commit\" && git push origin master"
+  },
+  "keywords": [
+    "webpack",
+    "typescript",
+    "html"
+  ],
+  "author": "Naveen Sakthivel",
+  "license": "MIT",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.5.3",
+    "eslint": "^6.8.0",
+    "eslint-loader": "^3.0.4",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.2",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^1.2.1",
+    "terser-webpack-plugin": "^2.3.7",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.9.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {}
+}
