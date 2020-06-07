@@ -1,4 +1,5 @@
-# Interlock Website - Redesigned
+# Webpack TypeScript Starter
+Starter template for developing static site using webpack and typescript
 
 ### Starting Devevelopent Server
 
